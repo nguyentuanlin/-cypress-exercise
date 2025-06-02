@@ -1,8 +1,5 @@
 Dưới đây là phiên bản viết lại của README theo phong cách chuyên nghiệp, rõ ràng, dễ đọc và có định dạng đẹp hơn cho dự án kiểm thử tự động bằng Cypress:
 
-markdown
-Copy
-Edit
 # 🚀 Dự án Kiểm thử Tự động End-to-End với Cypress
 
 ## 📌 Mục tiêu Dự án
@@ -35,9 +32,6 @@ npm init -y
 npm install cypress --save-dev
 Sau khi cài đặt, mở giao diện Cypress:
 
-bash
-Copy
-Edit
 npx cypress open
 🧪 Danh Sách Kịch Bản Kiểm Thử
 Tên tệp	Mô tả kiểm thử
@@ -53,9 +47,6 @@ Mở terminal trong thư mục dự án
 
 Chạy lệnh:
 
-bash
-Copy
-Edit
 npx cypress open
 Chọn tệp .cy.js trong giao diện để thực hiện kiểm thử
 
@@ -66,9 +57,7 @@ Giao diện website phản hồi nhanh, chức năng hoạt động đúng như 
 
 Dữ liệu được kiểm tra từ cả chiều hợp lệ và không hợp lệ nhằm đảm bảo độ tin cậy
 
-📁 Cấu trúc thư mục dự án (tham khảo)
-Copy
-Edit
+# 📁 Cấu trúc thư mục dự án (tham khảo)
 cypress/
 ├── e2e/
 │   ├── login_spec.cy.js
